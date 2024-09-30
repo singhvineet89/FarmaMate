@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Optimizing Crop Selection in India: A Seasonal Guide for Sustainable Farming"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/introTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agriculture in India is highly dependent on the diverse climatic conditions experienced throughout the year. Proper crop selection according to seasons is essential for farmers to maximize profit, enhance production, and ensure sustainable farming practices. In this guide, we will explore various ways and techniques that farmers in India can adopt for optimal crop selection, aiming to strike a balance between economic prosperity and environmental preservation."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Section 1 -->
+        <TextView
+            android:id="@+id/section1TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Kharif Season (June to October)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection1aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Paddy (Rice):"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/paddy"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Well-suited for the monsoon season, paddy requires abundant water."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection1abContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Techniques such as System of Rice Intensification (SRI) can enhance productivity while using water efficiently."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Subsection b -->
+        <TextView
+            android:id="@+id/subsection1bTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Maize:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/maize"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1bContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thrives in well-drained soil with moderate water availability."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1b2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intercropping with legumes can improve soil fertility naturally."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1cTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. Soyabean:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/soyabean"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1cContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suitable for regions with medium to heavy rainfall."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1c2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crop rotation with soybean helps fix nitrogen in the soil, benefiting subsequent crops."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Section 2 -->
+        <TextView
+            android:id="@+id/section2TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Rabi Season (November to April):"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection2aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Wheat:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/wheat"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flourishes in cooler temperatures and requires well-drained soil."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection2a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adopting conservation tillage practices reduces soil erosion and enhances water retention."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Subsection b -->
+        <TextView
+            android:id="@+id/subsection2bTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Mustard:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/musturd"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2bContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grows well in cool climates and can be cultivated in rotation with wheat."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection2b2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acts as a natural pest repellent for certain crops."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2cTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. Chickpea (Gram):"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/gram"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2cContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thrives in cool and dry conditions."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2cbContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intercropping with chickpea helps in weed management and improves soil structure."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/section3TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Zaid Season (Short Summer Crop):"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection3aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Watermelon:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/watermelon"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Requires high temperatures and ample sunlight."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection3abContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drip irrigation minimizes water usage."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3bTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Cucumber:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/cocumber"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3bContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Well-suited for warmer climates."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection3b2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vertical farming techniques save space and enhance yields."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3cTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. Tomato:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tomato"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3cContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grows best in warm temperatures with good sunlight."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection3c2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mulching helps conserve soil moisture."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/section4TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Commercial Crops for Break Season:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+
+
+        <TextView
+            android:id="@+id/subsection4aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Mushrooms:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/mushrooms"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indoor cultivation during the off-season can be lucrative."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection4a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mushroom cultivation utilizes agricultural waste, promoting sustainability."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4bTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Herbs and Medicinal Plants:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/herbs"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4bContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Growing herbs like basil, mint, or medicinal plants during the break season can generate additional income."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection4b2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Organic cultivation practices can attract premium prices in the market."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4cTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. Floriculture:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/floriculture"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4cContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cultivating flowers for the ornamental market during the break season."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection4c2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Efficient water management is crucial for floriculture."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/conclusionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conclusion: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/conclusionContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart crop selection according to seasons is the cornerstone of successful and sustainable agriculture in India. By adopting appropriate techniques and diversifying crops during break seasons, farmers can not only maximize their profits but also contribute to the overall health of the environment. Balancing economic prosperity with environmental stewardship is the key to securing a vibrant and sustainable future for Indian agriculture."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+
+
+        <!-- ... (similar TextViews for subsection 2b content) -->
+
+        <!-- Section 3, 4 ... (similar structure) -->
+
+    </LinearLayout>
+</ScrollView>

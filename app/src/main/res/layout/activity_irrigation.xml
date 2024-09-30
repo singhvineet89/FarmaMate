@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sustainable Irrigation Techniques for High Productivity: A Guide for Indian Farmers"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/introTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water is a precious resource, and efficient irrigation is crucial for sustaining agriculture in India. With changing climate patterns and increasing water scarcity, adopting sustainable irrigation techniques is essential for farmers to ensure high productivity while preserving water resources. In this guide, we will explore various irrigation techniques that Indian farmers can implement to enhance crop yields and promote sustainability."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Section 1 -->
+        <TextView
+            android:id="@+id/section1TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Drip Irrigation:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection1aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How It Works: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/dripirrigation"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivers water directly to the base of each plant through a network of tubes and pipes."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection1a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benifits: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection1a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water Efficiency: Reduces water wastage by targeting the root zone."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrient Efficiency: Allows precise application of fertilizers with water."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <!-- Subsection b -->
+
+
+        <!-- Section 2 -->
+        <TextView
+            android:id="@+id/section2TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sprinkler Irrigation:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection2aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How It Works: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/sprinkler"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:id="@+id/subsection2aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distributes water over the crops in the form of droplets through a system of pipes and pumps."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benifits: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection2a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uniform Coverage: Ensures even distribution of water across the field."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reduced Soil Erosion: Minimizes soil disturbance compared to flood irrigation."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+        <!-- Subsection b -->
+
+
+        <TextView
+            android:id="@+id/section3TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Rainwater Harvesting:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection3aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How It Works: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/rainwater"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collects and stores rainwater for later use through structures like ponds or tanks."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection3a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection3a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drought Resilience: Provides an additional water source during dry periods."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cost-Effective: Reduces dependence on external water sources."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/section4TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Furrow Irrigation:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection4aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How It Works: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/furrow"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water is directed along furrows between raised beds or rows of crops."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection4a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benifits: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection4a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adaptability: Suitable for a variety of crops and terrains."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cost-Effective: Requires less infrastructure compared to some other methods."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/section5TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Subsurface Drip Irrigation (SDI):"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection5aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How It Works: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/sdi"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection5aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Similar to traditional drip irrigation but places tubing below the soil surface."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection5a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection5a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minimized Evaporation Losses: Reduces water loss due to evaporation."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection5a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weed Control: Limits weed growth compared to surface irrigation."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:id="@+id/section6TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Check Basin Irrigation:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection6aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How It Works: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/basin"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection6aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Forms small basins around individual plants to hold water."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection6a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection6a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water Conservation: Reduces runoff and enhances water absorption."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection6a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Erosion Control: Helps prevent soil erosion in sloped areas."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/section7TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Solar-Powered Irrigation:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection7aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How It Works: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/solar"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection7aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Utilizes solar energy to power pumps for irrigation."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection7a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection7a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text="Energy Efficiency: Reduces reliance on conventional energy sources."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection7a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cost Savings: Lowers operational costs in the long run."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/section8TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Smart Irrigation Systems:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection8aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How It Works: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/smart"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection8aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integrates technology, sensors, and data analytics for precise irrigation scheduling."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection8a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection8a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text="Optimized Water Use: Adjusts irrigation based on real-time weather and soil moisture data."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection8a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remote Monitoring: Allows farmers to control irrigation systems from a distance."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+        <TextView
+            android:id="@+id/conclusionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conclusion: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/conclusionContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text="Adopting sustainable irrigation techniques is imperative for Indian farmers to navigate the challenges posed by climate change and water scarcity. By implementing these techniques, farmers can not only enhance crop productivity but also contribute to the overall sustainability of agriculture. The judicious use of water resources ensures that agriculture remains resilient, productive, and environmentally responsible for current and future generations."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+
+
+        <!-- ... (similar TextViews for subsection 2b content) -->
+
+        <!-- Section 3, 4 ... (similar structure) -->
+
+    </LinearLayout>
+</ScrollView>

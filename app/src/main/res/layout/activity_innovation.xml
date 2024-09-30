@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navigating Sustainable Agriculture Innovations: A Pointwise Guide for Indian Farmers"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="16dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/innovationmain"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/introTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sustainable agriculture is evolving with continuous innovations, offering new possibilities for Indian farmers. Staying informed about these advancements is crucial for enhancing productivity while minimizing environmental impact. This guide provides pointwise suggestions on how Indian farmers can stay updated on sustainable agriculture innovations and integrate them into their practices."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Section 1 -->
+        <TextView
+            android:id="@+id/section1TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Government Initiatives and Extension Services:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection1aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Awareness Campaigns: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/awareness"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Participate in government-led awareness programs on sustainable agriculture innovations."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection1a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extension Services: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection1a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Engage with agricultural extension officers for the latest information on sustainable practices."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <!-- Section 2 -->
+        <TextView
+            android:id="@+id/section2TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Agri-Tech Exhibitions and Conferences: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/conference"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Participation:  "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection2aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attend local and national agri-tech exhibitions and conferences."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Networking: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection2a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect with innovators, companies, and researchers to stay updated on the latest trends."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Subsection b -->
+
+
+        <TextView
+            android:id="@+id/section3TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Digital Platforms and Apps: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/digitalapps"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection3aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agri-Tech Apps: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection3aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Utilize apps providing real-time information on sustainable practices, weather forecasts, and market trends."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection3a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Forums: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection3a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join digital forums where farmers share experiences and information about innovative practices."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/section4TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Research and Educational Institutions: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection4aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collaboration: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection4aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Partner with agricultural research institutions and universities."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection4a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workshops and Webinars:  "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection4a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attend workshops and webinars conducted by these institutions to stay informed about cutting-edge research."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:id="@+id/section5TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Farmer Training Programs:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection5aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Government and NGO Programs: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection5aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enroll in training programs focusing on sustainable agriculture practices."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection5a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On-Field Demonstrations: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection5a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Participate in on-field demonstrations to understand the practical application of innovations."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+        <TextView
+            android:id="@+id/section6TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Weather Forecasting and Precision Farming:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/weather"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection6aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Access to Weather Data: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection6aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Utilize weather forecasting tools for precise planning."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection6a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precision Farming Techniques: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection6a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Implement precision farming technologies for optimized resource use."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+        <TextView
+            android:id="@+id/section7TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Community-Based Learning:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection7aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farmers' Cooperatives: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection7aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collaborate with local farmers' cooperatives for knowledge exchange."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection7a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Community Workshops: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection7a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Organize or participate in workshops within the community to share insights and innovations."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:id="@+id/section8TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Agroecological Practices:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection8aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Experimentation: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection8aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integrate agroecological practices into small-scale experiments."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection8a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitor Outcomes: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection8a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Observe and monitor the outcomes, adjusting practices based on local conditions."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:id="@+id/section9TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Subscription to Agricultural Magazines and Journals: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/magzines"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection9aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subscription: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection9aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subscribe to agricultural magazines and journals for in-depth articles on sustainable innovations."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection9a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Case Studies:  "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection9a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn from case studies of successful implementations."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/section10TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Online Courses on Sustainable Agriculture: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection10aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-Learning Platforms: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection10aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enroll in online courses dedicated to sustainable agriculture practices."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection10a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skill Development: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection10a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text="Enhance skills and knowledge through structured online learning."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:id="@+id/section11TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. Government Schemes and Subsidies: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/governmentschemes"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection11aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scheme Awareness:  "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection11aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stay informed about government schemes promoting sustainable practices."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection11a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Financial Support: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection11a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leverage subsidies for implementing innovative and sustainable technologies."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/section12TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. Networking with Agri-Entrepreneurs: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection12aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local Entrepreneurs: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection12aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect with local agri-entrepreneurs for insights into innovative practices."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection12a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Field Visits: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection12a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visit successful sustainable agriculture projects for inspiration."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/conclusionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conclusion: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/conclusionContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Embracing sustainable agriculture innovations is essential for the future of Indian farming. By following these pointwise strategies, farmers can stay informed about the latest advancements, adapt their practices accordingly, and contribute to the broader movement toward sustainable and resilient agriculture. Keeping pace with innovation ensures that farmers are well-equipped to address challenges and optimize their agricultural practices"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+
+
+        <!-- ... (similar TextViews for subsection 2b content) -->
+
+        <!-- Section 3, 4 ... (similar structure) -->
+
+    </LinearLayout>
+</ScrollView>

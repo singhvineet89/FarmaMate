@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Combatting Common Crop Diseases in India: A Guide to Natural and Sustainable Solutions"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="16dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/cropdiseasesintro"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/introTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crop diseases pose a significant challenge to farmers in India, threatening both yield and quality. Conventional methods of disease management often involve the use of chemical pesticides, which can have detrimental effects on the environment and human health. In this guide, we will explore common crop diseases in India and provide natural, sustainable alternatives to manage and prevent their impact on agricultural productivity."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <!-- Section 1 -->
+        <TextView
+            android:id="@+id/section1TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Late Blight in Potato and Tomato:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection1aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symptoms: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/potatodisease"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brown lesions on leaves, stem, and fruit; white fungal growth under humid conditions."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection1a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Natural Solution: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection1a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neem Oil: Acts as a natural fungicide, disrupting the life cycle of the pathogen."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copper-Based Sprays: Copper compounds help control late blight; use in moderation to avoid environmental impact."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <!-- Subsection b -->
+
+
+        <!-- Section 2 -->
+        <TextView
+            android:id="@+id/section2TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Rust in Wheat and Barley:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection2aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symptoms: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/rustinwheat"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orange or reddish-brown powdery pustules on leaves."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Natural Solution: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection2a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sulfur Sprays: Sulfur acts as a fungicide and can be applied preventively."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aerated Compost Tea: Boosts plant immunity and helps control rust."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+        <!-- Subsection b -->
+
+
+        <TextView
+            android:id="@+id/section3TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Downy Mildew in Cucurbits (Cucumber, Squash, etc.):"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection3aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symptoms: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/downydisease"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yellow spots on the upper side and a white mold-like growth on the lower side of leaves."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection3a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Natural Solution: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection3a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baking Soda Spray: Mix baking soda with water to create an antifungal spray."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copper-Based Fungicides: Effective against downy mildew; apply in the early stages."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/section4TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Leaf Spot in Paddy (Rice):"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection4aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symptoms: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/leafspotdisease"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brown or black spots on leaves, affecting photosynthesis."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection4a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Natural Solution: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection4a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text="Garlic Extract: Acts as an antifungal agent; mix with water and spray on affected plants."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crop Rotation: Breaks the disease cycle; avoid planting the same crop in consecutive seasons."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/section5TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Root Rot in Various Crops:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+
+        <TextView
+            android:id="@+id/subsection5aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symptoms: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/rootrot"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection5aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wilting, yellowing, and decay of roots."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection5a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Natural Solution: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection5a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trichoderma-based Biopesticides: Beneficial fungi that inhibit the growth of root rot pathogens."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection5a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proper Drainage: Ensure well-drained soil to prevent waterlogging, a common cause of root rot."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:id="@+id/section6TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Alternaria Blight in Mustard and Other Brassicas:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/subsection6aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symptoms: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/alternaria"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection6aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dark lesions with concentric rings on leaves and pods"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection6a2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Natural Solution: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection6a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neem Cake: Acts as a soil amendment and has antifungal properties."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection6a3ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biocontrol Agents: Release natural enemies like predatory insects to control Alternaria."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+        <TextView
+            android:id="@+id/conclusionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conclusion: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/conclusionContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Managing crop diseases in a natural and sustainable way is not only crucial for preserving the environment but also for ensuring the long-term health of agricultural ecosystems. By adopting these natural solutions, farmers in India can mitigate the impact of common crop diseases while promoting sustainable farming practices. Integrating these methods into agricultural practices contributes to healthier crops, reduced reliance on chemical inputs, and a more resilient and sustainable agricultural sector."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+
+
+        <!-- ... (similar TextViews for subsection 2b content) -->
+
+        <!-- Section 3, 4 ... (similar structure) -->
+
+    </LinearLayout>
+</ScrollView>

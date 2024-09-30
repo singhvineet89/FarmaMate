@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us: FARMA-MATE"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#1C9861"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/introaboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="At Farma-Mate, we are more than an app; we are architects of sustainable agriculture, fostering a community of eco-conscious farmers and innovators. Our mission is clear: to revolutionize farming practices by providing comprehensive solutions through cutting-edge technology. Here's a glimpse into our vision, values, and the functions that define us:"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Section 1 -->
+        <TextView
+            android:id="@+id/section1TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Mission :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1248D2"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:id="@+id/ourmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="At Farma-Mate, we envision a future where agriculture and nature coexist harmoniously. Our mission is to empower farmers with the tools and knowledge needed for sustainable farming practices, ensuring a balance between feeding the world's growing population and preserving the health of our planet."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/keyfunctions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key Functions:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#4D2CA6"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/function1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Sustainable Farming Techniques:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection1aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We provide a wealth of information on eco-friendly practices, guiding farmers towards sustainable farming methods that minimize environmental impact and enhance soil health."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Subsection b -->
+        <TextView
+            android:id="@+id/function2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Seed Sourcing Assistance:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection1bContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farma-Mate assists farmers in finding high-quality seeds, recommending varieties suited to specific crops and regions. We advocate for seed diversity and sustainability."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:id="@+id/function3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Market Access Insights:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection1cContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our app facilitates access to real-time market data and trends, helping farmers connect with fair and ethical markets. We provide tips on negotiating fair prices and building lasting market connections."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/function4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Innovation Updates:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection2aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Embracing the latest technological advancements is at the core of our ethos. Farma-Mate keeps farmers updated on cutting-edge technologies that increase production without harming the environment."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Subsection b -->
+        <TextView
+            android:id="@+id/function5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Community Building:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection2bContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farma-Mate is not just an app; it's a community. We encourage the exchange of knowledge, experiences, and best practices among farmers. Together, we are building a network of environmentally-conscious farmers committed to sustainable agriculture."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join the MISSION"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/jointhemission"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/communitylinks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click below to join the WhatsApp Community:"
+            android:textSize="18sp"
+            android:textColor="#0097A7"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:id="@+id/whatsappcommunity"
+            android:src="@drawable/baseline_whatsapp_24"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farma-Mate@2024 - Vineet Singh"
+            android:layout_gravity="center"
+            android:textColor="#303F9F"
+            android:fontFamily="casual"
+            android:textSize="15sp"
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

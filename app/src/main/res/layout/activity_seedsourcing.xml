@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empowering Indian Farmers: A Comprehensive Guide to Seed Sourcing and Storage"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/introTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seeds are the foundation of agriculture, and for farmers in India, ensuring access to high-quality seeds is crucial for a successful harvest. In this article, we will explore various ways and technologies through which farmers can source and store quality seeds, whether from government stores or by managing their own seed banks."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Section 1 -->
+        <TextView
+            android:id="@+id/section1TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Government Seed Stores"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection1aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Agricultural Extension Services:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection1aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farmers can connect with local agricultural extension services to access information on government seed stores. Extension officers provide insights into the types of seeds available, their suitability for specific regions, and any subsidies or support programs."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Subsection b -->
+        <TextView
+            android:id="@+id/subsection1bTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Public Distribution Centers:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:src="@drawable/pdcenter"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection1bContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Many states in India have established public distribution centers for seeds. These centers often offer certified seeds at reasonable prices and may provide additional services such as testing and certification."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Section 2 -->
+        <TextView
+            android:id="@+id/section2TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Technology-driven Approaches"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection2aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Online Seed Portals:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:src="@drawable/seedportal"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Government initiatives such as the National Seeds Corporation (NSC) often have online portals where farmers can browse and purchase seeds. This enables farmers to access a wide variety of seeds without the need to travel."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Subsection b -->
+        <TextView
+            android:id="@+id/subsection2bTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Mobile Apps:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection2bContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Some states have developed mobile applications that farmers can use to order seeds, receive information on new varieties, and access expert advice."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2cTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. IT-enabled Agri-platforms:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection2cContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Private agri-tech platforms provide a marketplace for buying and selling seeds."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection2cbContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="These platforms often incorporate data-driven insights, helping farmers make informed decisions based on their specific needs and the local climate."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/section3TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Self-Storage of Seeds:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subsection a -->
+        <TextView
+            android:id="@+id/subsection3aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Seed Banks:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/seedbanks"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farmers can establish community-based seed banks to pool resources and store seeds collectively."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection3abContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="These banks serve as a repository of local and traditional varieties, promoting biodiversity."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3bTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Proper Seed Storage:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection3bContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ensure seeds are stored in a cool, dry place to prevent mold and deterioration."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection3b2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Packaging seeds in airtight containers with moisture-absorbing materials can extend their shelf life."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3cTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. Seed Treatment:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:src="@drawable/seedtreatment"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3cContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farmers can employ seed treatment techniques such as coating with biopesticides or fungicides to protect seeds from pests and diseases."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection3dTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d. Documentation:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection3dContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maintain detailed records of seed varieties, their sources, and any treatments applied."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection3d2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proper documentation aids in traceability and ensures farmers use seeds of known quality in subsequent seasons."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/section4TitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Best Practices for High-Quality Seed Storage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginBottom="8dp"/>
+
+
+
+        <TextView
+            android:id="@+id/subsection4aTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Temperature and Humidity Control:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection4aContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use climate-controlled storage facilities or structures to regulate temperature and humidity."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection4a2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cold storage may be necessary for certain seed varieties."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4bTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Regular Monitoring:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/subsection4bContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Periodically check stored seeds for signs of damage or deterioration."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection4b2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discard any seeds showing signs of contamination or poor quality."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4cTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. Education and Training:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="4dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:src="@drawable/education"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/subsection4cContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Provide farmers with training on seed storage best practices."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/subsection4c2ContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Encourage the adoption of modern storage technologies to enhance seed preservation."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/conclusionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conclusion: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/conclusionContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seed sourcing and storage are pivotal aspects of sustainable agriculture. By leveraging government resources, technology-driven solutions, and adopting best practices for self-storage, Indian farmers can ensure a constant and reliable supply of high-quality seeds, paving the way for bountiful harvests and increased agricultural productivity."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+
+
+        <!-- ... (similar TextViews for subsection 2b content) -->
+
+        <!-- Section 3, 4 ... (similar structure) -->
+
+    </LinearLayout>
+</ScrollView>

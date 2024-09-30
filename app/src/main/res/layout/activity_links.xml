@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Important Links"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/introTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In this section, we'll be providing you the important links that you can visit for further assistance in the respective fields. There are various government and non-goverment organisations that are working towards this same goal, we'll try to list them all so that you can easily access to their services as per your needs."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/linksmainimage"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Government Agriculture Schemes:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#00796B"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:text="CLICK Here"
+            android:backgroundTint="#388E3C"
+            android:id="@+id/govschemes"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This button will redirect you to the official website of 'Department of Agriculture and Farmers Welfare' where you can find various schemes for farmers."
+            android:textColor="#121E69"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Loan Assistance for Farmers:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#00796B"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:text="CLICK Here"
+            android:backgroundTint="#1976D2"
+            android:id="@+id/loanassistance"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This button will redirect you to the website of 'bankbazaar.com' where you can find various schemes for loan assistance for farmers via different banks."
+            android:textColor="#121E69"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Different NGOs for Farmers in India:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#00796B"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:text="CLICK Here"
+            android:backgroundTint="#E64A19"
+            android:id="@+id/ngos"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This button will redirect you to the website of 'give.do' where they have listed top 10 NGOs empowering Indian farmers to grow and sustain."
+            android:textColor="#121E69"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Forums for Farmers in India:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#00796B"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:text="CLICK Here"
+            android:backgroundTint="#7131B1"
+            android:id="@+id/forums"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This button will redirect you to the official website of 'India Farmer's Forum' where you can explore their various activities to advocate for farmer prosperity."
+            android:textColor="#121E69"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Weather Forecasting for Farmers:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#00796B"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:text="CLICK Here"
+            android:backgroundTint="#AFB42B"
+            android:id="@+id/weather"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This button will redirect you to the official website of 'enam.gov.in' where you can simply select your state and then your district to know precise and accurate forecast of weather."
+            android:textColor="#121E69"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Market Access for Farmers:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#00796B"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:text="CLICK Here"
+            android:backgroundTint="#C27617"
+            android:id="@+id/marketenam"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This button will redirect you to the official website of 'enam.gov.in' National Agriculture Market where you can find various schemes to ease the market access for Indian farmers."
+            android:textColor="#121E69"
+            android:textSize="16sp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Follow Us On"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:layout_marginBottom="7dp"/>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="28sp"
+                android:layout_height="28sp"
+                android:src="@drawable/instal"
+                android:layout_marginRight="5dp"
+                android:id="@+id/instagram"/>
+            <ImageView
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:src="@drawable/twitterlogo"
+                android:layout_marginRight="5dp"
+                android:id="@+id/twitter"/>
+            <ImageView
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:src="@drawable/fblogo"
+                android:id="@+id/fb"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farma-Mate@2024 - Vineet Singh"
+            android:layout_gravity="center"
+            android:textColor="#303F9F"
+            android:fontFamily="casual"
+            android:textSize="15sp"
+            android:layout_marginBottom="20dp"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
